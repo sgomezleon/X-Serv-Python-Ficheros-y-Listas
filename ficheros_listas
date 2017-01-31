@@ -1,0 +1,7 @@
+# 13.4 Ficheros y listas
+
+fich = open("/etc/passwd","r")
+usuarios = fich.readlines()
+
+for usuario in usuarios 
+	print(usuario)
